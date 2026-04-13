@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ncm811-dopant-selector"
+version = "0.1.0"
+description = "Corpus-level RAG pipeline for selecting NCM811 dopants and generating lab-ready recipes."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "openai",
+  "numpy",
+  "pandas",
+  "matplotlib",
+  "httpx",
+  "pymupdf",
+  "pdfplumber",
+  "pypdf",
+  "jsonschema",
+]
+
+[project.scripts]
+ncm811-dopant-selector = "ncm811_dopant_selector.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["ncm811_dopant_selector*"]

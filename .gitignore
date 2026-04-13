@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.grobid_cache/
+.rag_cache/
+.venv/
+venv/
+results*.json
+best_recipe*.json
+evidence_long*.csv
+lab_feedback.jsonl
+plots_iter*/
+plots/
+debug/

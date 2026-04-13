@@ -1,0 +1,9 @@
+openai
+numpy
+pandas
+matplotlib
+httpx
+pymupdf
+pdfplumber
+pypdf
+jsonschema
