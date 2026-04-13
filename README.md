@@ -1,4 +1,6 @@
 # NCM811 Dopant Selector
+
+(This is an ongoing research project. Please do not reuse or redistribute the code or methodology without proper attribution.)
   
 It uses corpus-level RAG, OpenAI-based reasoning, deterministic chemistry calculations, and an optional closed-loop lab feedback cycle to recommend one actionable dopant recipe for NCM811 cathodes.
 
