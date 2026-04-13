@@ -1,4 +1,4 @@
-# NCM811 Dopant Selector
+# NCM811 Dopant Selector (Owned by MII Lab at KAIST)
 
 (This is an ongoing research project. Please do not reuse or redistribute the code or methodology without proper attribution.)
   
